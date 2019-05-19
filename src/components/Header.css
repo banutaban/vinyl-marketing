@@ -1,0 +1,47 @@
+
+.Header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+    margin: 0;
+    background: #412e9e;
+}
+
+.HeaderGroup {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.Header a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.Header img {
+    position: relative;
+    padding: 0;
+    display: grid;
+    align-items: left;
+    justify-items: left;
+}
+
+@media (max-width: 640px) {
+    .Header {
+        padding: 15px 0;
+    }
+
+    .HeaderGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .Header a:nth-child(4) {
+        display: none;
+    }
+}
+
+
