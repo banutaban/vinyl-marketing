@@ -14,7 +14,9 @@
     grid-template-columns: repeat(5, auto);
     align-items: center;
     justify-items: center;
+    margin-left: 116px;
 }
+
 
 .Header a {
     color: white;
