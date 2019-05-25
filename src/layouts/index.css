@@ -48,7 +48,26 @@
   color: #ffffff;
   border-radius: 6px;
   display: inline-block;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0, 0.25);
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+
+
+.HeroGroup .ContainerLeft .buttonGroup .primaryButton:hover {
+
+  background: #5540bf;
+  transform: translateY(-1px);
+
+}
+
+.HeroGroup .ContainerLeft .buttonGroup .primaryButton:active {
+
+  background: #705cd6;
+
+}
+
 
 .HeroGroup .ContainerLeft .buttonGroup .secondaryButton {
   width: 160px;
@@ -62,6 +81,23 @@
   border-radius: 6px;
   margin-left: 24px;
   display: inline-block;
+  outline: none;
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeroGroup .ContainerLeft .buttonGroup .secondaryButton:hover {
+ 
+  background: rgba(65, 46, 158, 0.4);
+  transform: translateY(-1px);
+  
+}
+
+
+.HeroGroup .ContainerLeft .buttonGroup .secondaryButton:active {
+ 
+  background: rgba(65, 46, 158, 0.2);
+  
 }
 
 
@@ -69,11 +105,51 @@
   font-size: 68px;
   line-height: 84px;
   color: #3e3e3e;
+  opacity: 0;
+  animation: VinylAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeroGroup .ContainerLeft p {
   font-size: 16px;
   line-height: 24px;
   color: #000;
+  animation: VinylAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+
+.HeroGroup .ContainerLeft h1 {
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.HeroGroup .ContainerLeft p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+}
+
+@keyframes VinylAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+
+  }
 }
 

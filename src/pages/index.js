@@ -7,7 +7,7 @@ const IndexPage = () => (
   <div className='HeroGroup'>
     <div className='ContainerLeft'>
   
-      <h1>Jam along without improvisation.</h1>
+      <h1>Jam along <br/> without improvisation.</h1>
 
       <p>Design perfect websites with the controlled
           flexibility of the atomic level React
