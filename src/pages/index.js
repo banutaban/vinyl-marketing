@@ -30,8 +30,7 @@ const IndexPage = () => (
 
     <div className='ContainerRight'>
     <img src={require('../assets/turntable.svg')} />
-
-    </div>
+</div>
 
   </div>
 )

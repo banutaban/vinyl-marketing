@@ -25,12 +25,12 @@
 .HeroGroup .ContainerRight {
   margin-top: 40px;
   margin-left: 700px;
+  position: relative;
 }
 
 .HeroGroup .ContainerRight img {
   margin-top: 24px;
 }
-
 
 .HeroGroup .ContainerLeft .buttonGroup {
   margin-top: 40px;
