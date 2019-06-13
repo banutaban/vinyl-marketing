@@ -8,38 +8,30 @@
 }
 
 .HeroGroup {
-  position: fixed;
-  margin-top: 100px;
-  margin-left: 116px;
+  width: 100%;
+  min-height: 100vh;
 }
 
+.HeroGroup .ScrollOne {
+  margin-left: 116px;
+  display: -webkit-inline-box;
+  margin-bottom: 80px;
+}
 
-.HeroGroup .ContainerLeft {
+.HeroGroup .ScrollOne .ContainerLeft {
   width: 35%;
-  position: fixed;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-left: 0px;
 
 }
 
-.HeroGroup .ContainerRight {
-  margin-top: 40px;
-  margin-left: 700px;
-  position: relative;
-}
-
-.HeroGroup .ContainerRight img {
-  margin-top: 24px;
-}
-
-.HeroGroup .ContainerLeft .buttonGroup {
+.HeroGroup .ScrollOne .ContainerLeft .buttonGroup {
   margin-top: 40px;
   width: 100%;
   height: 100%;
 }
 
-
-.HeroGroup .ContainerLeft .buttonGroup .primaryButton {
+.HeroGroup .ScrollOne .ContainerLeft .buttonGroup .primaryButton {
   width: 160px;
   height: 56px;
   font-size: 16px;
@@ -55,21 +47,21 @@
 }
 
 
-.HeroGroup .ContainerLeft .buttonGroup .primaryButton:hover {
+.HeroGroup .ScrollOne .ContainerLeft .buttonGroup .primaryButton:hover {
 
   background: #5540bf;
   transform: translateY(-1px);
 
 }
 
-.HeroGroup .ContainerLeft .buttonGroup .primaryButton:active {
+.HeroGroup .ScrollOne .ContainerLeft .buttonGroup .primaryButton:active {
 
   background: #705cd6;
 
 }
 
 
-.HeroGroup .ContainerLeft .buttonGroup .secondaryButton {
+.HeroGroup .ScrollOne .ContainerLeft .buttonGroup .secondaryButton {
   width: 160px;
   height: 56px;
   font-size: 16px;
@@ -86,7 +78,7 @@
   transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.HeroGroup .ContainerLeft .buttonGroup .secondaryButton:hover {
+.HeroGroup .ScrollOne .ContainerLeft .buttonGroup .secondaryButton:hover {
  
   background: rgba(65, 46, 158, 0.4);
   transform: translateY(-1px);
@@ -94,14 +86,14 @@
 }
 
 
-.HeroGroup .ContainerLeft .buttonGroup .secondaryButton:active {
+.HeroGroup .ScrollOne .ContainerLeft .buttonGroup .secondaryButton:active {
  
   background: rgba(65, 46, 158, 0.2);
   
 }
 
 
-.HeroGroup .ContainerLeft h1 {
+.HeroGroup .ScrollOne .ContainerLeft h1 {
   font-size: 68px;
   line-height: 84px;
   color: #3e3e3e;
@@ -113,7 +105,7 @@
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.HeroGroup .ContainerLeft p {
+.HeroGroup .ScrollOne .ContainerLeft p {
   font-size: 16px;
   line-height: 24px;
   color: #000;
@@ -121,7 +113,80 @@
   opacity: 0;
 }
 
-@media (max-width: 640px) {
+
+.HeroGroup .ScrollOne .ContainerRight {
+  width: 65%;
+  top: 0;
+}
+
+.HeroGroup .ScrollOne .ContainerRight img {
+  margin-top: 80px;
+  margin-left: 240px;
+}
+
+
+.HeroGroup .ScrollTwo {
+  margin-bottom: 80px;
+  height: 512px;
+  background-color: #412e9e;
+  padding-top: 40px;
+}
+
+
+.HeroGroup .ScrollTwo h1 {
+ text-align: center;
+ color: #fff;
+ font-size: 38px;
+ line-height: 48px;
+}
+
+
+.HeroGroup .ScrollTwo .DisplayContainer {
+  margin-top: 40px;
+  margin-left: 116px;
+  margin-right: 116px;
+  display: -webkit-inline-box;
+}
+
+.HeroGroup .ScrollTwo .DisplayContainer .SideLeft {
+  width: 48%;
+  margin-right: 4%;
+}
+
+.HeroGroup .ScrollTwo .DisplayContainer .SideLeft h3 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.HeroGroup .ScrollTwo .DisplayContainer .SideLeft p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+.HeroGroup .ScrollTwo .DisplayContainer .SideRight {
+  width: 48%;
+}
+
+.HeroGroup .ScrollTwo .DisplayContainer .SideRight h3 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.HeroGroup .ScrollTwo .DisplayContainer .SideRight p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+/*
   .HeroGroup {
     padding: 100px 20px;
   }
@@ -136,8 +201,8 @@
   line-height: 16px;
 }
 
-
 }
+*/
 
 @keyframes VinylAnimation {
   0% {
