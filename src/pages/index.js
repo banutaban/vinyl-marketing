@@ -72,6 +72,69 @@ const IndexPage = () => (
 
 </div>
 
+<div className='ScrollThree'>
+<h5>
+  Features
+</h5>
+<h3>
+  All time hits
+</h3>
+
+  <div className='BoxContainer'>
+  <img src={require('../assets/colorcards.svg')} />
+  <img src={require('../assets/hands.svg')} />
+  <img src={require('../assets/rocket.svg')} />
+  <img src={require('../assets/sketch.svg')} />
+
+  <p>But I must explain to you how all this mistaken idea of denouncing 
+  pleasure and praising pain was born and I will give you a complete account 
+  of the system, and expound the actual teachings of the great explorer of the truth, 
+  the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, 
+  because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter 
+  consequences that are extremely painful.</p>
+
+  </div>
+
+ 
+
+</div>
+
+
+<div className='ScrollFour'>
+<h5>
+  Contributors
+</h5>
+<h3>
+  Join the Band!
+</h3>
+
+  <div className='CenterContainer'>
+  <img src={require('../assets/banu.png')} />
+  <img src={require('../assets/oner.png')} />
+  <img src={require('../assets/oval.svg')} />
+  <img src={require('../assets/oval.svg')} />
+  <img src={require('../assets/oval.svg')} />
+  <p>But I must explain to you how all this mistaken idea of denouncing 
+  pleasure and praising pain was born and I will give you a complete account 
+  of the system, and expound the actual teachings of the great explorer of the truth, 
+  the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, 
+  because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter 
+  consequences that are extremely painful.</p>
+  </div>
+
+ 
+
+</div>
+
+
+
+
+
+
+
+
+
+
 </div>
 
 )

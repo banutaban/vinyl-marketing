@@ -1,10 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
  
- html {
+ html, body {
  font-family: 'Lato', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .HeroGroup {
@@ -13,6 +15,7 @@
 }
 
 .HeroGroup .ScrollOne {
+  margin-top: 80px;
   margin-left: 116px;
   display: -webkit-inline-box;
   margin-bottom: 80px;
@@ -126,8 +129,8 @@
 
 
 .HeroGroup .ScrollTwo {
-  margin-bottom: 80px;
-  height: 512px;
+  margin-bottom: 0;
+  min-height: 512px;
   background-color: #412e9e;
   padding-top: 40px;
 }
@@ -182,6 +185,108 @@
   color: #fff;
   font-size: 16px;
   line-height: 24px;
+}
+
+.HeroGroup .ScrollThree {
+  margin-top: 0;
+  margin-bottom: 80px;
+  min-height: 100vh;
+  background-color:#f6f5fe;
+  padding-top: 40px; 
+}
+
+.HeroGroup .ScrollThree h5 {
+  color: #412e9e;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-left: 116px;
+  margin-right: 116px;
+}
+
+.HeroGroup .ScrollThree h3 {
+  color: ##3e3e3e;
+  font-size: 38px;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 116px;
+  margin-right: 116px;
+}
+
+
+
+.HeroGroup .ScrollThree .BoxContainer {
+  width: 60%;
+  display: inline-block;
+  z-index: 1000;
+  top: 0;
+  margin-left: 116px;
+  margin-top: 40px;
+}
+
+.HeroGroup .ScrollThree .BoxContainer img {
+  margin-right: 64px;
+}
+
+.HeroGroup .ScrollThree .BoxContainer p {
+  color: ##3e3e3e;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+
+.HeroGroup .ScrollFour {
+  margin-top: 0;
+  margin-bottom: 80px;
+  min-height: 100vh;
+  background-color:#fff;
+  padding-top: 40px; 
+}
+
+.HeroGroup .ScrollFour h5 {
+  color: #412e9e;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.HeroGroup .ScrollFour h3 {
+  color: ##3e3e3e;
+  font-size: 38px;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.HeroGroup .ScrollFour .CenterContainer {
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  margin: 0 auto;
+  max-width: 1140px;
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+.HeroGroup .ScrollFour .CenterContainer img {
+  margin-right: 64px;
+}
+
+
+.HeroGroup .ScrollFour .CenterContainer p {
+  color: #3e3e3e;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 48px;
+  margin-bottom: 0;
+
 }
 
 
