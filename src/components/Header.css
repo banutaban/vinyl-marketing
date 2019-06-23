@@ -6,48 +6,63 @@
     padding: 0;
     top: 0;
     z-index: 100;
-    margin: 0;
+    margin: auto;
     background: #412e9e;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.HeaderGroup {
-    max-width: 800px;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: 20% 1fr;
     align-items: center;
-    justify-items: center;
-    margin-left: 116px;
-}
-
-
-.Header a {
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
 }
 
 .Header img {
-    position: relative;
-    padding: 0;
-    display: grid;
     align-items: center;
-    justify-items: center;
+    margin: 0 116px;
 }
 
-@media (max-width: 640px) {
-    .Header {
-        padding: 16px 0;
+.HeaderGroup {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Header .HeaderGroup a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+.Header .HeaderGroup .Hamburger {
+    display: none;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .Header .HeaderGroup {
+        grid-template-columns: 20% 1fr;
+        align-items: center;
     }
 
     .HeaderGroup {
-        grid-template-columns: repeat(4, auto);
+        display: block;
+        justify-content: flex-end;
+        align-items: center;
     }
 
-    .Header a:nth-child(5) {
+  
+    .Header .HeaderGroup a {
         display: none;
     }
+
+    .Header .HeaderGroup .Hamburger {
+        justify-self: left;
+        color: #fffff;
+        font-size: 24px;
+    }
+    
 }
 
 

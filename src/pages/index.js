@@ -6,7 +6,7 @@ import '../layouts/index.css'
 const IndexPage = () => (
   <div className='HeroGroup'>
 
-    <div className='ScrollOne'>
+    <div className='SectionOne'>
     <div className='ContainerLeft'>
   
       <h1>Jam along <br/> without improvisation.</h1>
@@ -36,7 +36,7 @@ const IndexPage = () => (
 
 </div>
 
-<div className='ScrollTwo'>
+<div className='SectionTwo'>
 
 
 <h1>How it's gonna work?</h1>
@@ -72,7 +72,7 @@ const IndexPage = () => (
 
 </div>
 
-<div className='ScrollThree'>
+<div className='SectionThree'>
 <h5>
   Features
 </h5>
@@ -100,7 +100,7 @@ const IndexPage = () => (
 </div>
 
 
-<div className='ScrollFour'>
+<div className='SectionFour'>
 <h5>
   Contributors
 </h5>
@@ -122,18 +122,18 @@ const IndexPage = () => (
   consequences that are extremely painful.</p>
   </div>
 
- 
 
 </div>
 
-
-
-
-
-
-
-
-
+<div className="Footer">
+    <div className="FooterGroup">
+    <Link to="/"><img src={require('../assets/vinyl-logo.png')} /></Link>
+    <Link to="/components">Components</Link>
+    <Link to="/designertutorial">Designer Tutorial</Link>
+    <Link to="/roadmap">Roadmap</Link>
+    <Link to="/about">About</Link>
+    </div>
+  </div>
 
 </div>
 
