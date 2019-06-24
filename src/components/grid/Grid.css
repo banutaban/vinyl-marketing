@@ -1,0 +1,40 @@
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 24px;
+}
+
+.Col.full {
+    grid-column: span 12;
+}
+
+.Col.large {
+    grid-column: span 8;
+}
+
+.Col.half {
+    grid-column: span 6;
+}
+
+.Col.medium {
+    grid-column: span 4;
+}
+
+.Col.small {
+    grid-column: span 3;
+}
+
+
+
+@media (max-width: 768px) {
+ 
+    .Col.medium {
+
+    grid-column: span 6;
+ }
+
+    }
+
+    
+    

@@ -6,23 +6,17 @@
     padding: 0;
     top: 0;
     z-index: 100;
-    margin: auto;
     background: #412e9e;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    display: grid;
-    grid-template-columns: 20% 1fr;
-    align-items: center;
 }
 
-.Header img {
-    align-items: center;
-    margin: 0 116px;
-}
 
 .HeaderGroup {
     display: flex;
-    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .Header .HeaderGroup a {
@@ -41,28 +35,17 @@
 @media (max-width: 768px) {
 
 
-    .Header .HeaderGroup {
-        grid-template-columns: 20% 1fr;
-        align-items: center;
-    }
-
-    .HeaderGroup {
-        display: block;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-  
     .Header .HeaderGroup a {
         display: none;
     }
 
     .Header .HeaderGroup .Hamburger {
-        justify-self: left;
-        color: #fffff;
+     
+        color: #fff;
         font-size: 24px;
     }
     
 }
+
 
 
