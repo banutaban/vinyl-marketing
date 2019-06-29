@@ -42,7 +42,6 @@ const IndexPage = () => (
     <div className="SectionTwo">
       <Container>
         <h1>How it's gonna work?</h1>
-
         <Grid>
           <Col size="half">
             <div className="SideLeft">
