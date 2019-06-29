@@ -25,13 +25,35 @@
     grid-column: span 3;
 }
 
+.Col.tiny {
+    grid-column: span 2;
+}
+
 
 
 @media (max-width: 768px) {
  
-    .Col.medium {
+.Col.large {
+
+    grid-column: span 12;
+ }
+
+ .Col.medium {
+
+    grid-column: span 12;
+    
+ }
+
+ .Col.half {
+
+    grid-column: span 12;
+    
+ }
+
+ .Col.tiny {
 
     grid-column: span 6;
+    
  }
 
     }

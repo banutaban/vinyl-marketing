@@ -1,51 +1,44 @@
-
 .Header {
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    padding: 0;
-    top: 0;
-    z-index: 100;
-    background: #412e9e;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 0;
+  top: 0;
+  z-index: 100;
+  background: #412e9e;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-
 .HeaderGroup {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .Header .HeaderGroup a {
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
-    margin: 0 40px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 40px;
 }
 
-.Header .HeaderGroup .Hamburger {
-    display: none;
+.Header .HeaderGroup .Menu a {
+  display: none;
 }
-
-
 
 @media (max-width: 768px) {
+  .Header .HeaderGroup a {
+    display: none;
+  }
 
-
-    .Header .HeaderGroup a {
-        display: none;
-    }
-
-    .Header .HeaderGroup .Hamburger {
-     
-        color: #fff;
-        font-size: 24px;
-    }
-    
+  .Header .HeaderGroup .Menu a {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    justify-content: flex-end;
+  }
 }
-
-
-
