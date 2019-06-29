@@ -58,5 +58,30 @@
 
     }
 
-    
+    @media (max-width: 375px) {
+ 
+        .Col.large {
+        
+            grid-column: span 12;
+         }
+        
+         .Col.medium {
+        
+            grid-column: span 12;
+            
+         }
+        
+         .Col.half {
+        
+            grid-column: span 12;
+            
+         }
+        
+         .Col.tiny {
+        
+            grid-column: span 6;
+            
+         }
+        
+            }
     

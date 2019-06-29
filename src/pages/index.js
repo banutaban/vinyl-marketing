@@ -140,9 +140,11 @@ const IndexPage = () => (
     </div>
 
     <div className="SectionFour">
+      <Container>
       <h5>Contributors</h5>
       <h3>Join the Band!</h3>
-
+<Grid>
+  <Col size='full'>
       <div className="CenterContainer">
         <img src={require('../assets/banu.png')} />
         <img src={require('../assets/oner.png')} />
@@ -159,6 +161,9 @@ const IndexPage = () => (
           encounter consequences that are extremely painful.
         </p>
       </div>
+      </Col>
+      </Grid>
+      </Container>
     </div>
 
     <div className="Footer">
@@ -172,6 +177,8 @@ const IndexPage = () => (
         <Link to="/about">About</Link>
       </div>
     </div>
+   
+
   </div>
 )
 
